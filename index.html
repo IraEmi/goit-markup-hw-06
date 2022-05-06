@@ -346,6 +346,53 @@
                     <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
             </button>
+            <form class="form">
+                <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+                <div class="form-group">
+                     <label for="name" class="form-name">Имя</label>
+                         <div class="form-wrap">
+                             <input type="text" name="name" id="name" class="form-input">
+                                  <svg class="form-icon" width="12" height="12">
+                                      <use href="./images/icons.svg#icon-person"></use>
+                                 </svg>
+                        </div>
+                </div>
+                <div class="form-group">
+                     <label for="phone" class="form-name">Телефон</label>
+                        <div class="form-wrap">
+                             <input type="tel" name="phone" id="phone" class="form-input">
+                                 <svg class="form-icon" width="13" height="13">
+                                    <use href="./images/icons.svg#icon-phone"></use>
+                                </svg>
+                        </div>       
+                </div>
+                <div class="form-group"> 
+                    <label for="mail" class="form-name">Почта</label>
+                         <div class="form-wrap">
+                             <input type="email" name="mail" id="mail" class="form-input">
+                                 <svg class="form-icon" width="15" height="12">
+                                     <use href="./images/icons.svg#icon-email"></use>
+                                 </svg>
+                        </div>
+                </div>
+
+                <div class="form-comment">
+                <label for="comment" class="form-comment-name"> Комментарий</label>
+                <textarea name="comment" id="comment" placeholder="Введите текст" class="form-comment-text"></textarea>
+                </div>
+
+                <div class="form-consent">
+                <input type="checkbox" name="consent" id="consent" class="form-check visually-hidden">
+                <label for="consent" class="form-consent-text"> 
+                    <span class="form-consent-icon">
+                        <svg class="consent-icon" width="11" height="8">
+                            <use href="./images/icons.svg#icon-check"></use>
+                        </svg>
+                    </span> Соглашаюсь с рассылкой и принимаю <a href="" class="agreement"> Условия договора</a></label>
+                </div>
+
+                <button type="submit" class="form-btn"> Отправить </button>
+            </form> 
         </div>
     </div>
     </main>
@@ -393,6 +440,19 @@
                             </a>
                         </li>
                    </ul>
+            </div>
+            <div class="mailing">
+                <h2 class="mailing-title">Подпишитесь на рассылку</h2>
+                <form>
+                <label for="mail">
+                    <input class="mailing-mail" type="email" name="mail" placeholder="E-mail" id="mail">
+                </label>
+                <button class="mailing-btn" type="submit">Подписаться
+                    <svg class="mailing-icon" width="24" height="24"> 
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
+                </form>
             </div>
         </div>
         
